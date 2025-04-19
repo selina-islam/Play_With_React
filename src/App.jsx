@@ -1,13 +1,14 @@
 
 import './App.css'
-import DataRendering from './Day-2/MapRenderingList/DataRendering'
+import PropsData from './Day-2/SharingDtatBetweenComponentsUsingProps/PropsData'
 
 
 function App() {
 
   return (
     <div>
-     <DataRendering/>
+
+      <PropsData/>
     </div>
   )
 }
