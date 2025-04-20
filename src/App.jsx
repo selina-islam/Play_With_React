@@ -1,14 +1,13 @@
 
 import './App.css'
-import PropsData from './Day-2/SharingDtatBetweenComponentsUsingProps/PropsData'
+import Team from './Project/Teammember/Team'
 
 
 function App() {
 
   return (
     <div>
-
-      <PropsData/>
+<Team/>
     </div>
   )
 }
