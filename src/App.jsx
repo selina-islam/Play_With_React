@@ -1,13 +1,13 @@
 
 import './App.css'
-import UseState from './Dya-3/Usestate/UseState'
+import AddToCart from './Project/AddToCart/AddToCart'
 
 
 function App() {
 
   return (
     <div>
-      <UseState/>
+      <AddToCart/>
     </div>
   )
 }
