@@ -52,7 +52,7 @@ function AddToCart() {
       ) : (
         <ul className="list-disc pl-6">
           {cart.map((item, index) => (
-            <li key={index} className="text-gray-800">
+            <li key={index} className="">
               {item.name} - {item.price}
             </li>
           ))}

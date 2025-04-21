@@ -5,11 +5,10 @@ function UseState() {
   // const [money, setMoney]=useState(10)
 
   // practice 2
-       // const [text, setText] = useState("");
-        
-        // practice 3
-        const [count, setCount]= useState(0)
+  // const [text, setText] = useState("");
 
+  // practice 3
+  const [count, setCount] = useState(0);
 
   return (
     <div className="m-8">
@@ -31,11 +30,14 @@ function UseState() {
         className="border p-2"
       />
       <p>You typed: {text}</p> */}
-                  
 
-                  {/* practice 3 */}
-                  <button className="bg-amber-950 text-white px-4 py-1 rounded-md hover:bg-amber-900 hover:translate-y-0.5 transition-all duration-150" onClick={()=> setCount(count+1)}>Click:  { count}</button>
-
+      {/* practice 3 */}
+      <button
+        className="bg-amber-950 text-white px-4 py-1 rounded-md hover:bg-amber-900 hover:translate-y-0.5 transition-all duration-150"
+        onClick={() => setCount(count + 1)}
+      >
+        Click: {count}
+      </button>
     </div>
   );
 }
