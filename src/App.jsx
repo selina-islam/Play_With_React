@@ -1,13 +1,13 @@
 
 import './App.css'
-import HandlingListKey from './Dya-3/HandlingListKey'
+import ToDo from './Project/ToDoApp/ToDo'
 
 
 function App() {
 
   return (
     <div>
-      <HandlingListKey/>
+  <ToDo/>
     </div>
   )
 }
