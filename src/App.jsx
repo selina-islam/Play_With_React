@@ -1,13 +1,10 @@
-
-import './App.css'
-import ToDo from './Project/ToDoApp/ToDo'
-
+import React from 'react'
+import Form from './Day-4/Form'
 
 function App() {
-
   return (
     <div>
-  <ToDo/>
+      <Form/>
     </div>
   )
 }
