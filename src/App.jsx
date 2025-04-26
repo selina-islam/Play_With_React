@@ -1,10 +1,10 @@
 import React from 'react'
-import Form from './Day-4/Form'
+import LiftingState from './Day-4/LiftingState/LiftingState'
 
 function App() {
   return (
     <div>
-      <Form/>
+      <LiftingState/>
     </div>
   )
 }
