@@ -1,10 +1,11 @@
 import React from 'react'
-import LiftingState from './Day-4/LiftingState/LiftingState'
+import Temperature from './Project/TemperatureConverter/Temperature'
 
 function App() {
   return (
-    <div>
-      <LiftingState/>
+    <div className='h-screen flex items-center justify-center bg-black/50'>
+     
+      <Temperature/>
     </div>
   )
 }
