@@ -1,11 +1,11 @@
 import React from 'react'
-import Useeffect from './Dya-3/Useeffect'
+import TimeApp from './Project/Timeapp/TimeApp'
 
 
 function App() {
   return (
     <div>
-     <Useeffect/>
+   <TimeApp/>
     </div>
   )
 }
