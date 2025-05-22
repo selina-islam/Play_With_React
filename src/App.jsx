@@ -1,11 +1,11 @@
 import React from 'react'
-import TimeApp from './Project/Timeapp/TimeApp'
+import WithState from './DynamicStyle/WithState'
 
 
 function App() {
   return (
     <div>
-   <TimeApp/>
+      <WithState/>
     </div>
   )
 }

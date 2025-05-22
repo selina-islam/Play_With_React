@@ -13,3 +13,12 @@ input::-webkit-inner-spin-button {
 input[type=number] {
   -moz-appearance: textfield;
 }
+
+
+/* withstate.jsx */
+.valid{
+  background-color: green;
+}
+.invalid{
+  background-color: red;
+}
