@@ -1,11 +1,11 @@
 import React from 'react'
-import WithState from './DynamicStyle/WithState'
+import Users from './PropsTypes/Users'
 
 
 function App() {
   return (
     <div>
-      <WithState/>
+      <Users/>
     </div>
   )
 }
