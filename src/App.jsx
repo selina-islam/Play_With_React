@@ -1,11 +1,11 @@
 import React from 'react'
-import Users from './PropsTypes/Users'
+import LifeCycle from './LifeCycle/LifeCycle'
 
 
 function App() {
   return (
     <div>
-      <Users/>
+     <LifeCycle/>
     </div>
   )
 }
