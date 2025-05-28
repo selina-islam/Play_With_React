@@ -1,11 +1,10 @@
 import React from 'react'
-import Apps from './ClassComponent/Apps'
+import SetState from './Hooks/state/SetState'
 
 function App() {
   return (
     <div>
-      <Apps />
-      
+     <SetState/>
     </div>
   )
 }
