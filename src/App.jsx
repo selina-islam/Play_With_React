@@ -1,11 +1,11 @@
 import React from 'react'
-import UserForm from './RefExample/UserForm'
-
+import Apps from './ClassComponent/Apps'
 
 function App() {
   return (
     <div>
-    <UserForm/>
+      <Apps />
+      
     </div>
   )
 }
