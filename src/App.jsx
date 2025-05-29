@@ -1,10 +1,11 @@
 import React from 'react'
-import ConditionalRendering from './ConditionalRendering/ConditionalRendering'
+import EventHandlerClass from './EventHandlerClass/Index'
 
 function App() {
   return (
     <div>
-<ConditionalRendering/>    </div>
+<EventHandlerClass/>
+    </div>
   )
 }
 
