@@ -1,12 +1,11 @@
 import React from 'react'
-import Index1 from './Hooks/Usestate/Index1'
-import Index2 from './Hooks/Usestate/Index2'
+import UpdateStateBasedOnPreviouState from './Hooks/Usestate/UpdateStateBasedOnPreviouState'
+
 
 function App() {
   return (
     <div className='m-10'>
-      <Index1 />
-      <Index2/>
+    <UpdateStateBasedOnPreviouState/>
     </div>
   )
 }
