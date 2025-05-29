@@ -1,11 +1,11 @@
 import React from 'react'
-import UpdateStateBasedOnPreviouState from './Hooks/Usestate/UpdateStateBasedOnPreviouState'
+import Propagation from './EventBubling/Propagation'
 
 
 function App() {
   return (
     <div className='m-10'>
-    <UpdateStateBasedOnPreviouState/>
+<Propagation/>
     </div>
   )
 }
