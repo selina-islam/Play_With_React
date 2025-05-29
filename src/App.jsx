@@ -1,11 +1,10 @@
 import React from 'react'
-import SetState from './Hooks/state/SetState'
+import ConditionalRendering from './ConditionalRendering/ConditionalRendering'
 
 function App() {
   return (
     <div>
-     <SetState/>
-    </div>
+<ConditionalRendering/>    </div>
   )
 }
 
