@@ -1,10 +1,10 @@
 import React from 'react'
-import EventHandlerClass from './EventHandlerClass/Index'
+import Event_Binding from './EventBinding/Event_Binding'
 
 function App() {
   return (
-    <div>
-<EventHandlerClass/>
+    <div className='m-10'>
+<Event_Binding/>
     </div>
   )
 }
