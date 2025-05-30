@@ -1,13 +1,11 @@
 import React from 'react'
-import AppCounter from './CounterApp/AppCounter'
-import { Toaster } from 'react-hot-toast'
+import FormControl from './FORM/FormControl'
 
 
 function App() {
   return (
     <div className='m-10'>
-      <Toaster position='bottom-center'/>
-      <AppCounter/>
+     <FormControl/>
     </div>
   )
 }
