@@ -1,11 +1,11 @@
 import React from 'react'
-import UsestateObject from './FORM/UsestateObject'
+import Parent from './Props/Parent'
 
 
 function App() {
   return (
     <div className='m-10'>
-   <UsestateObject/>
+      <Parent/>
     </div>
   )
 }
