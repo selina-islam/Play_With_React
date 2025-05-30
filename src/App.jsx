@@ -1,11 +1,11 @@
 import React from 'react'
-import FormControl from './FORM/FormControl'
+import UsestateObject from './FORM/UsestateObject'
 
 
 function App() {
   return (
     <div className='m-10'>
-     <FormControl/>
+   <UsestateObject/>
     </div>
   )
 }
