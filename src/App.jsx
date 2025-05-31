@@ -1,12 +1,12 @@
 import React from 'react'
-import { Toggle } from './Toggle/Toggle'
+import Faq from './FAQ/Faq'
 
 
 
 function App() {
   return (
     <div>
-      <Toggle/>
+      <Faq/>
     </div>
   )
 }
