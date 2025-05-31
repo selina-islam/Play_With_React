@@ -1,12 +1,12 @@
 import React from 'react'
+import Home from './Project/TodoApps/Home'
 
-import Home from './State_Lifting/Home'
 
 
 function App() {
   return (
-    <div className='m-10'>
-     <Home/>
+    <div>
+  <Home/>
     </div>
   )
 }
