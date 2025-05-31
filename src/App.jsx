@@ -1,12 +1,12 @@
 import React from 'react'
-import SignUp from './FORM/Formik_yup/SignUp'
+import { Toggle } from './Toggle/Toggle'
 
 
 
 function App() {
   return (
     <div>
-      <SignUp/>
+      <Toggle/>
     </div>
   )
 }
