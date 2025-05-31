@@ -1,12 +1,12 @@
 import React from 'react'
-import Home from './Project/TodoApps/Home'
+import SignUp from './FORM/Formik_yup/SignUp'
 
 
 
 function App() {
   return (
     <div>
-  <Home/>
+      <SignUp/>
     </div>
   )
 }
