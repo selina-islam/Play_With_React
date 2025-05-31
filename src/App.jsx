@@ -1,11 +1,12 @@
 import React from 'react'
-import Parent from './Props/Parent'
+
+import Home from './State_Lifting/Home'
 
 
 function App() {
   return (
     <div className='m-10'>
-      <Parent/>
+     <Home/>
     </div>
   )
 }
