@@ -1,12 +1,12 @@
 import React from 'react'
-import Faq from './FAQ/Faq'
+import FetchApi from './Hooks/useEffect/FetchApi'
 
 
 
 function App() {
   return (
     <div>
-      <Faq/>
+      <FetchApi/>
     </div>
   )
 }
