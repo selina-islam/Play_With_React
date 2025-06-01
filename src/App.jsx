@@ -1,12 +1,12 @@
 import React from 'react'
-import DataFetch from './Hooks/CustomHooks/DataFetch'
+import ToastNotification from './React-Toastify/ToastNotification'
 
 
 
 function App() {
   return (
     <div>
-      <DataFetch/>
+    <ToastNotification/>
     </div>
   )
 }
