@@ -1,12 +1,12 @@
 import React from 'react'
-import FetchApi from './Hooks/useEffect/FetchApi'
+import DataFetch from './Hooks/CustomHooks/DataFetch'
 
 
 
 function App() {
   return (
     <div>
-      <FetchApi/>
+      <DataFetch/>
     </div>
   )
 }
