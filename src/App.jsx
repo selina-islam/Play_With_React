@@ -1,12 +1,11 @@
 import React from 'react'
-import ToastNotification from './React-Toastify/ToastNotification'
 
-
+import Example from './Hooks/UseReducer/Example'
 
 function App() {
   return (
     <div>
-    <ToastNotification/>
+      <Example/>
     </div>
   )
 }

@@ -35,7 +35,7 @@ export default class LifeCycle extends Component {
     console.log("componentdidMount"); // ❌ Incorrect log message (should be 'componentDidUpdate')
   }
 
-  componentdidUpdate() {
+  componentDidUpdate() {
     // ❌ This is a typo. React lifecycle method should be camelCase: componentDidUpdate()
     console.log("componentdidUpdate");
   }
