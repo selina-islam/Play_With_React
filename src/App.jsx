@@ -1,11 +1,12 @@
 import React from 'react'
+import Component1 from './Prop_Drilling/Component1'
 
-import Example from './Hooks/UseReducer/Example'
 
 function App() {
+ 
   return (
     <div>
-      <Example/>
+      <Component1/>
     </div>
   )
 }
