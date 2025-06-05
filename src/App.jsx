@@ -1,12 +1,11 @@
 import React from 'react'
-import Component1 from './Prop_Drilling/Component1'
-
+import Context1 from './CONTEXT_API/Context1'
 
 function App() {
  
   return (
     <div>
-      <Component1/>
+      <Context1/>
     </div>
   )
 }
