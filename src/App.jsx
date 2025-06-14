@@ -1,11 +1,11 @@
 import React from 'react'
-import MainApp from './AddToCart/MainApp'
+import Main from './addCart_contextApi/Main'
 
 function App() {
  
   return (
     <div>
-      <MainApp/>
+     <Main/>
     </div>
   )
 }
