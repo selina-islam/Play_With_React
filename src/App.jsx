@@ -1,11 +1,11 @@
 import React from 'react'
-import CallbackHook from './Hooks/useCallBack/CallbackHook'
+import CounterApp from './Hooks/UseReducer/CounterApp'
 
 function App() {
  
   return (
     <div>
-      <CallbackHook/>
+    <CounterApp/>
     </div>
   )
 }
