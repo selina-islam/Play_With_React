@@ -1,11 +1,13 @@
 import React from 'react'
-import FormWithUseRef from './Hooks/UseRef/FormWithUseRef'
+import  Counter1  from './Hooks/CustomHook/Counter1'
+import  Counter2  from './Hooks/CustomHook/Counter2'
 
 function App() {
  
   return (
     <div>
-      <FormWithUseRef/>
+    <Counter1/>
+    <Counter2/>
     </div>
   )
 }
