@@ -1,11 +1,11 @@
 import React from 'react'
-import MemosCase from './Hooks/useMemo/MemosCase'
+import CallbackHook from './Hooks/useCallBack/CallbackHook'
 
 function App() {
  
   return (
     <div>
-    <MemosCase/>
+      <CallbackHook/>
     </div>
   )
 }
