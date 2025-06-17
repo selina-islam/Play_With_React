@@ -1,13 +1,11 @@
 import React from 'react'
-import  Counter1  from './Hooks/CustomHook/Counter1'
-import  Counter2  from './Hooks/CustomHook/Counter2'
+import MemosCase from './Hooks/useMemo/MemosCase'
 
 function App() {
  
   return (
     <div>
-    <Counter1/>
-    <Counter2/>
+    <MemosCase/>
     </div>
   )
 }
