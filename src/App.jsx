@@ -1,12 +1,12 @@
 import React from 'react'
-import VideoUseref from './again-practice/use-ref/VideoUseref'
+import Reducer from './again-practice/Hooks/UseReducer/Reducer'
 
 
 function App() {
  
   return (
-    <div>
-    <VideoUseref/>
+    <div> 
+    <Reducer/>
     </div>
   )
 }

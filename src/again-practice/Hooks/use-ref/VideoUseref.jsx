@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react'
 import { FaPause, FaPlay } from 'react-icons/fa'
-import Onclickevent from './../../first-practice/Day-2/Event/UpdatingTheScreenBasedOnClick/Onclickevent';
+import Onclickevent from '../../../first-practice/Day-2/Event/UpdatingTheScreenBasedOnClick/Onclickevent';
 
 const VideoUseref = () => {
     const videoRef = useRef(null)
