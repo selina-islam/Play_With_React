@@ -1,12 +1,12 @@
 import React from 'react'
-import Reducer from './again-practice/Hooks/UseReducer/Reducer'
+import PhotoWithContent from './carousel/PhotoWithContent'
 
 
 function App() {
  
   return (
     <div> 
-    <Reducer/>
+<PhotoWithContent/>
     </div>
   )
 }
