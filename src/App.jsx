@@ -1,12 +1,12 @@
 import React from 'react'
-import PhotoWithContent from './carousel/PhotoWithContent'
+import Carousel from './carousel/Carousel'
 
 
 function App() {
  
   return (
     <div> 
-<PhotoWithContent/>
+      <Carousel/>
     </div>
   )
 }
