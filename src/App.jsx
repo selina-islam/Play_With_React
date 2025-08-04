@@ -1,12 +1,13 @@
-import React from 'react'
-import Carousel from './carousel/Carousel'
+import GrandParent from './again-practice/all-about-props/ChildToParent/GrandParent'
+import Props from './again-practice/all-about-props/Props'
 
 
 function App() {
  
   return (
     <div> 
-      <Carousel/>
+   <Props/>
+   <GrandParent/>
     </div>
   )
 }
